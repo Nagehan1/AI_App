@@ -189,3 +189,77 @@ textarea::placeholder {
         opacity: 0.8;
     }
 }
+
+/* =================
+      Buttons & SVG 
+     ================= */
+
+
+button {
+    border: none;
+    background: var(--pink);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--dark);
+}
+
+.send-btn {
+    border-top-right-radius: var(--border-rad-lg);
+    border-bottom-right-radius: var(--border-rad-lg);
+    min-width: 50px;
+}
+
+.send-btn>img {
+    width: 1.6em;
+    vertical-align: middle;
+}
+
+.view-pitch-btn {
+    color: var(--light);
+    border-radius: var(--border-rad-lg);
+    padding: 1em;
+    margin: .4em auto;
+    display: block;
+    font-size: 1.2em;
+}
+
+.view-pitch-btn:hover {
+    box-shadow: 1px 1px 5px 1px var(--medium-dark);
+}
+
+img.loading {
+    max-width: 40px;
+    filter: none;
+}
+
+/* =================
+      Output 
+     ================= */
+
+.output-container {
+    display: none;
+    flex-direction: column;
+    margin: 1em auto;
+    color: var(--dark);
+    padding: 1em;
+}
+
+.output-img-container>img {
+    max-width: 100%;
+    border-radius: var(--border-rad-lg);
+    box-shadow: 1px 1px 5px 1px var(--dark);
+}
+
+/* =================
+      Footer 
+     ================= */
+
+footer {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: .8em;
+    font-size: .7em;
+    text-align: center
+}
